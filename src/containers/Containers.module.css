@@ -1,0 +1,17 @@
+.container {
+  background: rgb(250, 38, 160);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 38, 160, 1) 0%,
+    rgba(163, 247, 191, 1) 50%,
+    rgba(5, 223, 215, 1) 100%
+  );
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.dataContainer {
+  margin-top: 150px;
+}

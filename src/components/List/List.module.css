@@ -1,0 +1,25 @@
+.container {
+  margin-top: 20px;
+  transition: all 0.5s;
+  width: 300px;
+}
+
+.container:hover {
+  box-shadow: 0px 0px 8px black;
+  transform: scale(1.03);
+  transition: all 0.5s;
+}
+
+.media {
+  height: 140px;
+}
+
+.icons {
+  color: rgba(250, 38, 160, 1);
+  transition: all 0.5s;
+}
+
+.icons:hover {
+  color: rgba(5, 223, 215, 1);
+  transition: all 0.5s;
+}

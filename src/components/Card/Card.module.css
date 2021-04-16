@@ -1,0 +1,161 @@
+.container {
+  margin-top: 200px;
+  width: 80% !important;
+}
+
+.data {
+  color: rgba(250, 38, 160, 1);
+}
+
+.divider {
+  margin: 5px 0;
+}
+
+.info {
+  margin-top: 50px;
+  width: 70%;
+}
+
+.img {
+  padding: 10px;
+}
+
+.link {
+  background-color: rgba(5, 223, 215, 1) !important;
+  color: rgba(250, 38, 160, 1) !important;
+  font-weight: bold !important;
+  margin-top: 20px !important;
+  width: 100% !important;
+
+  transition: all 0.5s !important;
+}
+
+.link:hover {
+  background-color: rgba(250, 38, 160, 1) !important;
+  color: rgba(5, 223, 215, 1) !important;
+  letter-spacing: 3px;
+
+  transition: all 0.5s !important;
+}
+
+.name {
+  color: rgba(5, 223, 215, 1);
+  font-size: 50px !important;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+.paper {
+  background: #283048;
+  background: -webkit-linear-gradient(to right, #859398, #283048);
+  background: linear-gradient(to right, #859398, #283048);
+}
+
+.status {
+  color: rgba(5, 223, 215, 1);
+  font-size: larger;
+  text-shadow: 2px 2px 3px black;
+}
+
+/* Media */
+
+/* //// Laptop //// */
+
+@media (max-width: 1024px) {
+  .info {
+    margin-top: 30px !important;
+    width: 60%;
+  }
+
+  .name {
+    font-size: 40px !important;
+    margin-bottom: 30px;
+  }
+}
+
+/* //// Smart-L //// */
+
+@media (max-width: 479px) {
+  .container {
+    margin-top: 100px;
+    width: 90% !important;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .info {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .img {
+    height: 360px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 35px !important;
+    margin-bottom: 30px;
+  }
+}
+
+/* //// Smart-M //// */
+
+@media (max-width: 425px) {
+  .container {
+    margin-top: 100px;
+    width: 90% !important;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .info {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .img {
+    height: 320px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 35px !important;
+    margin-bottom: 30px;
+  }
+}
+
+/* //// Smart-S //// */
+
+@media (max-width: 320px) {
+  .container {
+    margin-top: 100px;
+    width: 90% !important;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .info {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .img {
+    height: 270px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 30px !important;
+    margin-bottom: 30px;
+  }
+}
